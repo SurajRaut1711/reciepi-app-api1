@@ -3,8 +3,8 @@ MAINTAINER Suraj R
 
 ENV PYTHONUNBUFFERED 1
 
-COPY ./requirements.txt/requirements.txt
-RUN pip install -r /requirements.txt
+COPY ./requirments.txt/requirments.txt
+RUN pip install -r /requirments.txt
 
 RUN mkdir /app
 WORKDIR /app
